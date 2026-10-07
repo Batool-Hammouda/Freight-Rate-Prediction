@@ -1,0 +1,15 @@
+[
+  "distance",
+  "weight",
+  "weight_missing",
+  "weight_was_negative",
+  "eq_DryVan",
+  "eq_Flatbed",
+  "eq_Reefer",
+  "pickup_lat",
+  "pickup_lon",
+  "delivery_lat",
+  "delivery_lon",
+  "market_index",
+  "market_index_missing"
+]

@@ -1,0 +1,8 @@
+{
+  "quote_correlation_lower": -0.5,
+  "quote_correlation_upper": 0.5,
+  "comparable_distance_bounds": [
+    300,
+    420
+  ]
+}

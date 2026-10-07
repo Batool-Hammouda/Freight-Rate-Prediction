@@ -1,0 +1,305 @@
+date,correlation,behaviour
+2025-01-01,-0.830603,follows price
+2025-01-02,-0.818443,follows price
+2025-01-03,-0.804894,follows price
+2025-01-04,-0.838214,follows price
+2025-01-05,-0.862699,follows price
+2025-01-06,-0.828399,follows price
+2025-01-07,-0.770367,follows price
+2025-01-08,-0.821991,follows price
+2025-01-09,-0.808560,follows price
+2025-01-10,-0.793708,follows price
+2025-01-11,-0.845156,follows price
+2025-01-12,-0.852109,follows price
+2025-01-13,-0.807826,follows price
+2025-01-14,-0.858997,follows price
+2025-01-15,-0.841315,follows price
+2025-01-16,-0.843646,follows price
+2025-01-17,-0.771200,follows price
+2025-01-18,-0.845708,follows price
+2025-01-19,-0.839866,follows price
+2025-01-20,-0.806196,follows price
+2025-01-21,-0.809097,follows price
+2025-01-22,-0.887078,follows price
+2025-01-23,-0.807117,follows price
+2025-01-24,-0.798050,follows price
+2025-01-25,-0.823736,follows price
+2025-01-26,-0.788675,follows price
+2025-01-27,-0.812172,follows price
+2025-01-28,-0.759705,follows price
+2025-01-29,-0.838982,follows price
+2025-01-30,-0.818534,follows price
+2025-01-31,-0.820670,follows price
+2025-02-01,-0.823681,follows price
+2025-02-02,-0.830176,follows price
+2025-02-03,-0.829791,follows price
+2025-02-04,-0.811549,follows price
+2025-02-05,-0.760543,follows price
+2025-02-06,-0.799711,follows price
+2025-02-07,-0.803558,follows price
+2025-02-08,-0.833138,follows price
+2025-02-09,-0.833269,follows price
+2025-02-10,-0.839564,follows price
+2025-02-11,-0.783297,follows price
+2025-02-12,-0.828646,follows price
+2025-02-13,-0.850801,follows price
+2025-02-14,-0.863329,follows price
+2025-02-15,-0.820373,follows price
+2025-02-16,-0.851717,follows price
+2025-02-17,-0.815689,follows price
+2025-02-18,-0.815022,follows price
+2025-02-19,-0.780138,follows price
+2025-02-20,-0.792681,follows price
+2025-02-21,-0.844010,follows price
+2025-02-22,-0.784841,follows price
+2025-02-23,-0.816223,follows price
+2025-02-24,-0.827356,follows price
+2025-02-25,-0.843981,follows price
+2025-02-26,-0.825106,follows price
+2025-02-27,-0.808014,follows price
+2025-02-28,-0.793006,follows price
+2025-03-01,-0.846374,follows price
+2025-03-02,-0.827939,follows price
+2025-03-03,-0.834073,follows price
+2025-03-04,-0.839285,follows price
+2025-03-05,-0.863936,follows price
+2025-03-06,-0.829966,follows price
+2025-03-07,-0.809279,follows price
+2025-03-08,-0.806380,follows price
+2025-03-09,-0.829295,follows price
+2025-03-10,-0.803839,follows price
+2025-03-11,-0.824895,follows price
+2025-03-12,-0.748207,follows price
+2025-03-13,-0.836747,follows price
+2025-03-14,-0.792966,follows price
+2025-03-15,-0.804007,follows price
+2025-03-16,-0.790535,follows price
+2025-03-17,-0.828611,follows price
+2025-03-18,-0.811737,follows price
+2025-03-19,-0.834603,follows price
+2025-03-20,-0.836191,follows price
+2025-03-21,-0.793777,follows price
+2025-03-22,-0.802960,follows price
+2025-03-23,-0.808031,follows price
+2025-03-24,-0.770459,follows price
+2025-03-25,-0.782439,follows price
+2025-03-26,-0.736647,follows price
+2025-03-27,-0.724818,follows price
+2025-03-28,-0.750768,follows price
+2025-03-29,-0.759557,follows price
+2025-03-30,-0.756809,follows price
+2025-03-31,-0.808210,follows price
+2025-04-01,0.781307,upside down
+2025-04-02,0.796258,upside down
+2025-04-03,0.858935,upside down
+2025-04-04,0.799936,upside down
+2025-04-05,0.841495,upside down
+2025-04-06,0.837742,upside down
+2025-04-07,0.800320,upside down
+2025-04-08,0.820693,upside down
+2025-04-09,0.847276,upside down
+2025-04-10,0.806338,upside down
+2025-04-11,0.823890,upside down
+2025-04-12,0.865712,upside down
+2025-04-13,0.838602,upside down
+2025-04-14,0.837538,upside down
+2025-04-15,0.774997,upside down
+2025-04-16,0.794483,upside down
+2025-04-17,0.780818,upside down
+2025-04-18,0.831597,upside down
+2025-04-19,0.816851,upside down
+2025-04-20,0.828283,upside down
+2025-04-21,0.805912,upside down
+2025-04-22,0.771077,upside down
+2025-04-23,0.715419,upside down
+2025-04-24,0.779639,upside down
+2025-04-25,0.835095,upside down
+2025-04-26,0.830878,upside down
+2025-04-27,0.816400,upside down
+2025-04-28,0.813364,upside down
+2025-04-29,0.835183,upside down
+2025-04-30,0.836856,upside down
+2025-05-01,0.815841,upside down
+2025-05-02,0.836073,upside down
+2025-05-03,0.849536,upside down
+2025-05-04,0.851443,upside down
+2025-05-05,0.869740,upside down
+2025-05-06,0.772974,upside down
+2025-05-07,0.807571,upside down
+2025-05-08,0.796198,upside down
+2025-05-09,0.829965,upside down
+2025-05-10,0.829785,upside down
+2025-05-11,0.806529,upside down
+2025-05-12,0.793535,upside down
+2025-05-13,0.816455,upside down
+2025-05-14,0.852279,upside down
+2025-05-15,0.864755,upside down
+2025-05-16,0.774400,upside down
+2025-05-17,0.859656,upside down
+2025-05-18,0.831740,upside down
+2025-05-19,0.824475,upside down
+2025-05-20,0.805009,upside down
+2025-05-21,0.824283,upside down
+2025-05-22,0.804429,upside down
+2025-05-23,0.798033,upside down
+2025-05-24,0.813009,upside down
+2025-05-25,0.829827,upside down
+2025-05-26,0.848646,upside down
+2025-05-27,0.836373,upside down
+2025-05-28,0.840325,upside down
+2025-05-29,0.802945,upside down
+2025-05-30,0.849884,upside down
+2025-05-31,0.824977,upside down
+2025-06-01,-0.783225,follows price
+2025-06-02,-0.803216,follows price
+2025-06-03,-0.803566,follows price
+2025-06-04,-0.787761,follows price
+2025-06-05,-0.808270,follows price
+2025-06-06,-0.814283,follows price
+2025-06-07,-0.839733,follows price
+2025-06-08,-0.871228,follows price
+2025-06-09,-0.798493,follows price
+2025-06-10,-0.847570,follows price
+2025-06-11,-0.797443,follows price
+2025-06-12,-0.813884,follows price
+2025-06-13,-0.816444,follows price
+2025-06-14,-0.828404,follows price
+2025-06-15,-0.784482,follows price
+2025-06-16,-0.776813,follows price
+2025-06-17,-0.810963,follows price
+2025-06-18,-0.823256,follows price
+2025-06-19,-0.796622,follows price
+2025-06-20,-0.798020,follows price
+2025-06-21,-0.777581,follows price
+2025-06-22,-0.789452,follows price
+2025-06-23,-0.825609,follows price
+2025-06-24,-0.829396,follows price
+2025-06-25,-0.731604,follows price
+2025-06-26,-0.785892,follows price
+2025-06-27,-0.815800,follows price
+2025-06-28,-0.784643,follows price
+2025-06-29,-0.738286,follows price
+2025-06-30,-0.774736,follows price
+2025-07-01,0.833547,upside down
+2025-07-02,0.792590,upside down
+2025-07-03,0.847533,upside down
+2025-07-04,0.819964,upside down
+2025-07-05,0.826732,upside down
+2025-07-06,0.799140,upside down
+2025-07-07,0.829108,upside down
+2025-07-08,0.821446,upside down
+2025-07-09,0.824179,upside down
+2025-07-10,0.815105,upside down
+2025-07-11,0.797160,upside down
+2025-07-12,0.834615,upside down
+2025-07-13,0.820982,upside down
+2025-07-14,0.845539,upside down
+2025-07-15,0.797901,upside down
+2025-07-16,0.831784,upside down
+2025-07-17,0.833036,upside down
+2025-07-18,0.826061,upside down
+2025-07-19,0.704989,upside down
+2025-07-20,0.795269,upside down
+2025-07-21,0.856678,upside down
+2025-07-22,0.843384,upside down
+2025-07-23,0.831637,upside down
+2025-07-24,0.785178,upside down
+2025-07-25,0.799200,upside down
+2025-07-26,0.832061,upside down
+2025-07-27,0.819187,upside down
+2025-07-28,0.839649,upside down
+2025-07-29,0.788857,upside down
+2025-07-30,0.830583,upside down
+2025-07-31,0.815166,upside down
+2025-08-01,0.054295,flat
+2025-08-02,-0.040460,flat
+2025-08-03,-0.067403,flat
+2025-08-04,-0.052232,flat
+2025-08-05,-0.042992,flat
+2025-08-06,-0.054983,flat
+2025-08-07,0.047081,flat
+2025-08-08,0.134415,flat
+2025-08-09,-0.094364,flat
+2025-08-10,0.153153,flat
+2025-08-11,0.080156,flat
+2025-08-12,0.026356,flat
+2025-08-13,0.089385,flat
+2025-08-14,0.030906,flat
+2025-08-15,0.093693,flat
+2025-08-16,-0.047861,flat
+2025-08-17,0.017035,flat
+2025-08-18,-0.020506,flat
+2025-08-19,0.009125,flat
+2025-08-20,0.026542,flat
+2025-08-21,0.063321,flat
+2025-08-22,0.110384,flat
+2025-08-23,-0.011890,flat
+2025-08-24,0.128817,flat
+2025-08-25,-0.061418,flat
+2025-08-26,-0.000464,flat
+2025-08-27,-0.001125,flat
+2025-08-28,0.063347,flat
+2025-08-29,-0.111712,flat
+2025-08-30,-0.069463,flat
+2025-08-31,0.082451,flat
+2025-09-01,-0.838554,follows price
+2025-09-02,-0.830409,follows price
+2025-09-03,-0.797238,follows price
+2025-09-04,-0.844112,follows price
+2025-09-05,-0.829255,follows price
+2025-09-06,-0.806372,follows price
+2025-09-07,-0.770122,follows price
+2025-09-08,-0.824762,follows price
+2025-09-09,-0.853159,follows price
+2025-09-10,-0.847738,follows price
+2025-09-11,-0.818644,follows price
+2025-09-12,-0.836311,follows price
+2025-09-13,-0.816292,follows price
+2025-09-14,-0.790178,follows price
+2025-09-15,-0.789764,follows price
+2025-09-16,-0.766214,follows price
+2025-09-17,-0.764495,follows price
+2025-09-18,-0.768627,follows price
+2025-09-19,-0.804097,follows price
+2025-09-20,-0.831239,follows price
+2025-09-21,-0.813459,follows price
+2025-09-22,-0.813307,follows price
+2025-09-23,-0.783872,follows price
+2025-09-24,-0.836707,follows price
+2025-09-25,-0.801440,follows price
+2025-09-26,-0.776325,follows price
+2025-09-27,-0.793964,follows price
+2025-09-28,-0.787536,follows price
+2025-09-29,-0.773170,follows price
+2025-09-30,-0.763983,follows price
+2025-10-01,0.838332,upside down
+2025-10-02,0.848101,upside down
+2025-10-03,0.800067,upside down
+2025-10-04,0.863328,upside down
+2025-10-05,0.854137,upside down
+2025-10-06,0.880608,upside down
+2025-10-07,0.816220,upside down
+2025-10-08,0.811139,upside down
+2025-10-09,0.815434,upside down
+2025-10-10,0.735656,upside down
+2025-10-11,0.854485,upside down
+2025-10-12,0.792417,upside down
+2025-10-13,0.851940,upside down
+2025-10-14,0.775263,upside down
+2025-10-15,0.801150,upside down
+2025-10-16,0.827828,upside down
+2025-10-17,0.840073,upside down
+2025-10-18,0.808635,upside down
+2025-10-19,0.808511,upside down
+2025-10-20,0.794746,upside down
+2025-10-21,0.834674,upside down
+2025-10-22,0.808181,upside down
+2025-10-23,0.821009,upside down
+2025-10-24,0.823111,upside down
+2025-10-25,0.844173,upside down
+2025-10-26,0.774416,upside down
+2025-10-27,0.821984,upside down
+2025-10-28,0.800224,upside down
+2025-10-29,0.841300,upside down
+2025-10-30,0.824282,upside down
+2025-10-31,0.851145,upside down

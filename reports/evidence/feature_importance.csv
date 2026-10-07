@@ -1,0 +1,14 @@
+feature,gain,splits,gain_pct
+distance,25238.81,3232,57.05
+eq_DryVan,7031.23,564,15.89
+delivery_lon,2845.37,1992,6.43
+weight,2038.97,2987,4.61
+market_index,1715.29,2967,3.88
+pickup_lon,1703.93,1914,3.85
+eq_Reefer,1294.93,355,2.93
+pickup_lat,1235.22,1864,2.79
+delivery_lat,788.3,1898,1.78
+eq_Flatbed,343.29,209,0.78
+weight_was_negative,0.41,12,0.0
+weight_missing,0.15,4,0.0
+market_index_missing,0.05,2,0.0

@@ -1,0 +1,8 @@
+{
+  "choice_sha256": "32e69c889e6fadf10b74f6a72292619aa3ba39d704511259cb8e888374002f6b",
+  "started_at_utc": "2026-10-07T09:02:13.398290+00:00",
+  "new_pipeline_evaluation_count": 1,
+  "prior_exposure": "An older executed checkpoint scored Ridge and Log-target Ridge on September-October. The original notebook supplied for finalization explored those months but did not score a holdout model. All current LightGBM choices use January-August folds only.",
+  "completed_at_utc": "2026-10-07T09:02:15.567583+00:00",
+  "prior_exposure_source": "reports/evidence/prior_holdout_exposure.json"
+}

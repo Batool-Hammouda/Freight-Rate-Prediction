@@ -1,0 +1,4 @@
+behaviour,min,max,count
+flat,-0.11,0.15,31
+follows price,-0.89,-0.72,150
+upside down,0.70,0.88,123

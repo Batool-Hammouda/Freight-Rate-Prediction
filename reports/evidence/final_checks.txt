@@ -1,0 +1,39 @@
+validation_predictions.csv first 5 rows:
+  load_id  predicted_rate
+TE-000001      826.231387
+TE-000002     4974.513825
+TE-000003     5083.281632
+TE-000004     3902.854911
+TE-000005     1815.543669
+Rows: 12000
+columns_exact : True
+rows_12000 : True
+same_ids_same_order : True
+no_missing : True
+all_finite : True
+all_positive : True
+template_empty : True
+template_hash_unchanged : True
+
+december_chart_inputs.csv first 5 rows:
+   pickup   delivery  distance equipment  weight       date  predicted_rate
+Lexington Fort Wayne       360   Dry Van   32000 2025-12-01      802.490463
+Lexington Fort Wayne       360   Dry Van   32000 2025-12-02      808.152679
+Lexington Fort Wayne       360   Dry Van   32000 2025-12-03      814.465887
+Lexington Fort Wayne       360   Dry Van   32000 2025-12-04      817.900520
+Lexington Fort Wayne       360   Dry Van   32000 2025-12-05      813.167719
+Rows: 31 Columns: 7
+columns_exact : True
+rows_31 : True
+no_missing : True
+all_finite : True
+all_positive : True
+fixed_values_and_date_strings_unchanged : True
+backup_hash_matches_supplied : True
+
+Supplied scorer hash unchanged: True
+
+Validated 12,000 final predictions.
+Validated 31 fixed December predictions.
+Created chart: scorer_results\candidate_december.png
+Final validation metrics are calculated by Spotter after submission.

@@ -1,0 +1,32 @@
+{
+  "fresh_virtual_environment": true,
+  "pip_install_passed": true,
+  "run_passed": true,
+  "score_passed": true,
+  "scorer_stdout": "Validated 12,000 final predictions.\nValidated 31 fixed December predictions.\nCreated chart: scorer_results\\candidate_december.png\nFinal validation metrics are calculated by Spotter after submission.\n",
+  "files": {
+    "validation_predictions.csv": {
+      "reference_sha256": "cced6b3a3376aac77f38891a1c0802a9ed29130a4b36ec063f0261adf005e064",
+      "rebuilt_sha256": "cced6b3a3376aac77f38891a1c0802a9ed29130a4b36ec063f0261adf005e064",
+      "byte_identical": true
+    },
+    "data/december_chart_inputs.csv": {
+      "reference_sha256": "164c4591a6d3aadf7503b9d4a547f50d2eec6c921aeb832d0124b47fc9677ef1",
+      "rebuilt_sha256": "164c4591a6d3aadf7503b9d4a547f50d2eec6c921aeb832d0124b47fc9677ef1",
+      "byte_identical": true
+    },
+    "data/validation_predictions_template.csv": {
+      "reference_sha256": "79de15adabcf807b8636b9b47ebe964d451fbcb343056c44a2c4b54a219891c6",
+      "rebuilt_sha256": "79de15adabcf807b8636b9b47ebe964d451fbcb343056c44a2c4b54a219891c6",
+      "byte_identical": true
+    },
+    "score.py": {
+      "reference_sha256": "f73af4f34acf0c43cdd6e2cd6b2c0ec8b9da4420fd6fdcd69bd86e14d4868634",
+      "rebuilt_sha256": "f73af4f34acf0c43cdd6e2cd6b2c0ec8b9da4420fd6fdcd69bd86e14d4868634",
+      "byte_identical": true
+    }
+  },
+  "dependency_check_passed": true,
+  "overall_passed": true,
+  "temporary_copy_removed": true
+}

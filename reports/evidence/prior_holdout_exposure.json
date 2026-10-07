@@ -1,0 +1,30 @@
+{
+  "prior_checkpoint": "assesment-prepared.ipynb",
+  "sha256": "9963b42b5e2ec9ac448701977a2765d0494842c14081fff8b50a90df5390c48c",
+  "verified_models": [
+    "Ridge",
+    "Log-target Ridge"
+  ],
+  "period": "2025-09-01 through 2025-10-31",
+  "original_notebook_for_finalization": "original_assessment.ipynb",
+  "original_has_exploratory_test_labels": true,
+  "original_has_holdout_model_scores": false,
+  "current_selection_source": "src/evaluate.py limits compare_models, tune and unseen_city_check to dates before CUTOFF",
+  "evidence_cells": [
+    {
+      "cell_index": 3,
+      "source": "validation_start = pd.Timestamp(\"2025-09-01\")\nfit_df = df.loc[df.date < validation_start].copy()\nval_df = df.loc[df.date >= validation_start].copy()\nsplits = {\"Training\": fit_df, \"Internal validation\": val_df}\nsplit_summary = pd.DataFrame([\n    {\"split\": name, \"rows\": len(part), \"start\": part.date.min().date(),\n     \"end\": part.date.max().date(), \"share_pct\": round(100 * len(part) / len(df), 2)}\n    for name, part in splits.items()\n]).set_index(\"split\")\ndisplay(split_summary)",
+      "text_outputs": [
+        "                      rows       start         end  share_pct\nsplit                                                        \nTraining             38477  2025-01-01  2025-08-31      80.16\nInternal validation   9523  2025-09-01  2025-10-31      19.84"
+      ]
+    },
+    {
+      "cell_index": 14,
+      "source": "dummy = DummyRegressor(strategy=\"median\")\ndummy.fit(np.zeros((len(y_fit), 1)), y_fit)\ndummy_predictions = dummy.predict(np.zeros((len(y_val), 1)))\ncandidate_models = {\n    \"Ridge\": Pipeline([\n        (\"preprocess\", clone(preprocessor)),\n        (\"regressor\", Ridge(alpha=10.0, solver=\"lsqr\")),\n    ]),\n    \"Log-target Ridge\": Pipeline([\n        (\"preprocess\", clone(preprocessor)),\n        (\"regressor\", TransformedTargetRegressor(\n            regressor=Ridge(alpha=10.0, solver=\"lsqr\"), func=np.log, inverse_func=np.exp)),\n    ]),\n}\nMIN_PREDICTED_RATE = 0.01\n\ndef predict_rates(estimator, features):\n    prediction = np.asarray(estimator.predict(features), dtype=float)\n    if not np.isfinite(prediction).all():\n        raise ValueError(\"Nonfinite rate predictions\")\n    return np.maximum(prediction, MIN_PREDICTED_RATE)\n\ndef scores(name, prediction, floored=0):\n    return {\"model\": name, \"MAE\": mean_absolute_error(y_val, prediction),\n            \"RMSE\": np.sqrt(mean_squared_error(y_val, prediction)),\n            \"R2\": r2_score(y_val, prediction), \"floored_predictions\": floored}\n\nscore_rows = [scores(\"Training median\", dummy_predictions)]\ncandidate_predictions = {}\nfor name, estimator in candidate_models.items():\n    estimator.fit(X_fit, y_fit)\n    raw_predictions = estimator.predict(X_val)\n    candidate_predictions[name] = predict_rates(estimator, X_val)\n    score_rows.append(scores(name, candidate_predictions[name],\n                             int((raw_predictions < MIN_PREDICTED_RATE).sum())))\nvalidation_scores = pd.DataFrame(score_rows).set_index(\"model\")\ndisplay(validation_scores.round(3))\nselected_name = validation_scores.loc[list(candidate_models), \"MAE\"].idxmin()\nmodel = candidate_models[selected_name]\nval_predictions = candidate_predictions[selected_name]\ngain = 100 * (1 - validation_scores.loc[selected_name, \"MAE\"] /\n                  validation_scores.loc[\"Training median\", \"MAE\"])\nprint(f\"Selected: {selected_name}; MAE improvement over median: {gain:.1f}%\")",
+      "text_outputs": [
+        "Selected: Log-target Ridge; MAE improvement over median: 89.8%\n",
+        "                       MAE      RMSE     R2  floored_predictions\nmodel                                                           \nTraining median   1148.924  1569.424 -0.058                    0\nRidge              145.725   639.966  0.824                    6\nLog-target Ridge   116.710   635.709  0.826                    0"
+      ]
+    }
+  ]
+}

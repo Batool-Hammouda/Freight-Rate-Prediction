@@ -1,0 +1,6 @@
+model,MAE,MAPE,RMSE,R2
+Quote reference,324.52,15.87,730.71,0.76
+Median RPM,241.19,11.45,653.51,0.81
+LightGBM with quote,147.91,6.93,628.33,0.83
+LightGBM core,142.32,5.99,618.2,0.83
+LightGBM final,108.12,4.71,607.94,0.84

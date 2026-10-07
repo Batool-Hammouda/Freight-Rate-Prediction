@@ -1,0 +1,22 @@
+{
+  "training_rows": 48000,
+  "prediction_rows": 12000,
+  "prediction_missing": 0,
+  "prediction_min": 183.66,
+  "prediction_max": 6693.88,
+  "floors": 0,
+  "december_rows": 31,
+  "december_min": 802.49,
+  "december_max": 818.45,
+  "december_floors": 0,
+  "comparable_rows": 2020,
+  "comparable_median": 833.97,
+  "comparable_q25": 783.76,
+  "comparable_q75": 897.44,
+  "comparable_monthly_median_min": 791.74,
+  "comparable_monthly_median_max": 872.38,
+  "varying_december_features": [
+    "market_index"
+  ],
+  "scorer_sha256": "f73af4f34acf0c43cdd6e2cd6b2c0ec8b9da4420fd6fdcd69bd86e14d4868634"
+}

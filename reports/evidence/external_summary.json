@@ -1,0 +1,30 @@
+{
+  "rows": 12000,
+  "columns": 13,
+  "start": "2025-11-01",
+  "end": "2025-12-31",
+  "duplicate_rows": 0,
+  "duplicate_ids": 0,
+  "missing_weight": 165,
+  "negative_weight": 145,
+  "missing_market_index": 249,
+  "nonpositive_distance": 0,
+  "same_schema_without_target": true,
+  "template_same_ids": true,
+  "template_same_order": true,
+  "unseen_cities": [
+    "Allentown",
+    "Charlotte",
+    "Chicago",
+    "Jackson",
+    "Knoxville",
+    "Laredo",
+    "Norfolk",
+    "San Diego"
+  ],
+  "unseen_city_count": 8,
+  "affected_loads": 1447,
+  "affected_pct": 12.06,
+  "flat_days": 61,
+  "days": 61
+}

@@ -1,0 +1,9 @@
+trial,changes,extra,mean_MAE,august_MAE,improvement_pct,eligible,selected
+default,{},,108.1618,109.9696,0.0,False,False
+alpha_0.5,"{""alpha"": 0.5}",,104.9388,109.1633,2.9798,True,True
+alpha_2,"{""alpha"": 2.0}",,112.8352,109.0532,-4.3207,False,False
+leaves_15,"{""num_leaves"": 15}",,106.5047,109.5228,1.5321,True,False
+min_child_80,"{""min_child_samples"": 80}",,107.5016,109.6906,0.6105,False,False
+circuity,{},circuity,107.9849,110.0053,0.1635,False,False
+weekday,{},weekday,111.5004,114.3837,-3.0866,False,False
+log_distance,{},log_distance,107.9737,109.7901,0.174,False,False

@@ -1,0 +1,8 @@
+weekday,days,mean_market_index,mean_predicted_rate
+Monday,5,0.85045,805.01
+Tuesday,5,0.92517,808.23
+Wednesday,5,1.00879,816.13
+Thursday,4,1.03243,818.07
+Friday,4,0.98573,813.87
+Saturday,4,0.9015,807.17
+Sunday,4,0.84303,804.65
